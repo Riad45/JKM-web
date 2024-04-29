@@ -1,0 +1,23 @@
+h3{
+    text-align: center;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: underline;
+}
+
+.second{
+    box-shadow: 10px 10px 30px rgb(255, 2, 2);
+}
+.third{
+    /* display: none; */
+    visibility: hidden;
+}
+.back{
+    height: 300px;
+    text-align: center;
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1r0Un4OxeaceaQI6Qg9vpasniQhVSZCqulqiV5K7cWQ&s');
+    
+}
+
+    

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border margin</title>
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <style>
+        .margin{
+
+            border-top: 20px solid darkblue;
+
+            background-color: lightblue;
+
+            margin: 30px;
+
+            border-radius: 20px;
+
+            width: 50%;
+
+            text-align: justify;
+
+            /* padding: 20px; */
+
+          /*  padding: 10px 80px ;    TB  RL/
+
+            /* padding: 10px 30px 50px;  T RL B */
+
+            padding: 10px 50px 80px 200px; /* T R B L padding will start clockwise */
+        }
+
+        span{
+
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin">
+
+        <h3>My First Blog Post</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis esse odit quia laborum unde minima, voluptas ullam libero totam beatae blanditiis nam facere at iste deleniti dolores corporis fugiat rem.</p>
+    </div>
+    <div class="margin second">
+        <h3>My Second Blog Post</h3>
+        <p>Lorem ipsum dolor, sit amet <span>consectetur</span> adipisicing elit. Reiciendis esse odit quia laborum unde minima, voluptas ullam libero totam beatae blanditiis nam facere at iste deleniti dolores corporis fugiat rem.</p>
+    </div>
+    <div class="margin">
+        <h3>My Third Blog Post</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis esse odit quia laborum unde minima, voluptas ullam libero totam beatae blanditiis nam facere at iste deleniti dolores corporis fugiat rem.</p>
+    </div>
+    <div class="margin">
+        <h3>My Forth Blog Post</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis esse odit quia laborum unde minima, voluptas ullam libero totam beatae blanditiis nam facere at iste deleniti dolores corporis fugiat rem.</p>
+    </div>
+
+    <p> <h3>css box size or box model depends on mainly 5 things : </h3></p>
+
+    <ul>
+        <li>Content</li>
+        <li>Border</li>
+        <li>Margin</li>
+        <li>Padding</li>
+        <li>height, width</li>
+    </ul>
+
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CSS-Box-Model.png" alt="CSS box CSS-Box-Model-1" height="300" width="500">
+
+    <img src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="CSS-Box-Model-2" height="300" width="500">
+</body>
+</html>
