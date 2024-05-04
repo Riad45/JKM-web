@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo 1</title>
+
+    <style>
+        h2 {
+            color: lightblue;
+        }
+
+        h2:hover {
+
+            color: darkblue;
+
+        }
+
+        input:focus {
+
+            outline: 0px;
+            border: 2px solid lightblue;
+            color: red;
+        }
+
+        a:visited {
+            color: lightslategray;
+        }
+
+        ul li:nth-child(2n+1) {
+
+            color: crimson;
+
+        }
+
+        ul li:hover:nth-child(2n) {
+
+            background-color: chartreuse;
+            width: 70px;
+        }
+
+        ul li:hover:nth-child(2n+1) {
+
+            background-color: gray;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Implementing hover</h2>
+
+    <p>Suppose we want to implement hover(mouse over) style on all h2 tag then the formt will be : <br> <br>
+        h2:hover{<br>
+
+        } <br> <br>
+
+        in style tag or in a style.css file <br>
+
+        then we can applied any kind of css style in this .
+
+    </p>
+
+    <h2>focus </h2>
+
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id=""> <br> <br>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://elearn.daffodilvarsity.edu.bd/"> DIU BLC</a> <br> <br>
+
+
+    <h2>Fol er upor kono oshud nai</h2>
+
+
+    <ul>
+        <li>Apple</li>
+        <li>Komla</li>
+        <li>Anarosh</li>
+        <li>Angur</li>
+        <li>Malta</li>
+        <li>Boroi</li>
+        <li>Amm</li>
+        <li>Kathal</li>
+        <li>Pepe</li>
+    </ul>
+
+
+    <h2> We learn about :</h2>
+
+    <ol>
+        <li>hover:--> tag:hover{}</li>
+        <li>focus:--> input:focus{}</li>
+        <li>anchor visited :--> a:visited{}</li>
+        <li>modify style of child :--> li:nth-child(2n+1) {}</li>
+        <li>li:hover:nth-child(){}</li>
+    </ol>
+
+</body>
+
+</html>
